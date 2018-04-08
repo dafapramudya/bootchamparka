@@ -1,0 +1,1 @@
+Pindah file serialkey.php ke directori xampp/htdocs anda.

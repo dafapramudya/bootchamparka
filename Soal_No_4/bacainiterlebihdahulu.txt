@@ -1,0 +1,9 @@
+Untuk bisa me-run file VenMachine.cs anda harus mengcompilenya terlebih dahulu, dengan cara melakukan SET PATH pada command prompt atau anda bisa menggunakan compiler c#. Untuk cara menggunakan command prompt, maka langkah pertama yaitu kita harus mengarahkan directori dimana file VenMachine.cs berada di dalam command prompt. Setelah directori di arahkan silahkan ketika set path seperti berikut:
+
+SET PATH="C:\Windows\Microsoft.NET\Framework\v4.0.30319";
+
+kemudian ketik
+
+csc VenMachine.cs
+
+maka akan terbentuk file VenMachine.exe.

@@ -1,0 +1,1 @@
+Pindah file soal2.php ke directori xampp/htdocs anda.
