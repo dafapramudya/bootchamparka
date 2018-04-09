@@ -17,6 +17,9 @@
 		return Random(4).'-'.Random(4).'-'.Random(4).'-'.Random(4);
 	}
 
-	echo SerialKey();
+	for ($i=0; $i < 300; $i++) 
+	{ 
+		echo SerialKey();
+	}
 
 ?>
