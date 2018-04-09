@@ -22,11 +22,9 @@ function biodata()
 	);
 
 	$data = array('Nama' => $nama, 'Address' => $address, 'Hobbies' => $hobbies, 'isMarried' => $isMarried, 'School' => $school, 'Skills' => $skills);
-
-	// bentuk JSON dari variable $array
+	
 	$json = json_encode($data);
 	echo $json;
-	// maka akan menghasilkan : {"id":1,"nama":"Mochamad Rohmat"}
 }
 
 return biodata();
